@@ -11,6 +11,7 @@ Additive_RNG<-function(a,z0,c,m,n) {
   hist(xi[,3])
   View(xi)
 }
+Additive_RNG(45, 21139, 437, 417, 150)
 
 Bernouli_2<-function(n,p) {
   i<-n
@@ -19,3 +20,4 @@ Bernouli_2<-function(n,p) {
   Y<-(X<=p+0)
   (tabel<-table(Y)/length(Y))
 }
+Bernouli_2(150, 0.83)
