@@ -1,3 +1,5 @@
+#Fungsi Additive
+#Diketahui: a=45, z0=21139, c=437, m=417, n=150
 Additive_RNG<-function(a,z0,c,m,n) {
   xi<-matrix(NA,n,3)
   colnames(xi)<-c("az(i-1)+c","Xi","Ui")
@@ -13,6 +15,9 @@ Additive_RNG<-function(a,z0,c,m,n) {
 }
 Additive_RNG(45, 21139, 437, 417, 150)
 
+
+#Fungsi Bernouli_2
+#Diketahui: n=150, p=0.83
 Bernouli_2<-function(n,p) {
   i<-n
   p<-p
